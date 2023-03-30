@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomChipChoiceStyle" parent="@style/Widget.MaterialComponents.Chip.Action">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:checkable">true</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">#ffffff</item>
+        <item name="chipStrokeColor">@color/selector_chip_stroke_color</item>
+        <item name="chipIconEnabled">true</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">6dp</item>
+        <item name="chipIconVisible">true</item>
+    </style>
+
+    <style name="ChipTextStyleAppearance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
